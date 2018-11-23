@@ -1,2 +1,2 @@
-# Tyler Li
-Personal website code
+# aniveera1.github.io
+Source code for my personal website
