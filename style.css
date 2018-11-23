@@ -1,0 +1,172 @@
+@font-face { font-family: quantify; src: url(lib/fonts/Quantify Bold v2.6.ttf); }
+@font-face { font-family: rale; src: url(lib/fonts/Raleway-Regular.ttf); }
+@font-face { font-family: open_sans; src: url(lib/fonts/OpenSans-SemiBold.ttf); }
+
+body { 
+	background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  	min-height: 100vh; /* These two lines are counted as one :-)       */
+  	display: flex;
+  	align-items: center;
+}
+
+.container {
+	height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#particles-js {
+	width: 100%;
+	height: 98%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content-container {
+	width: 100%;
+	align-items: center;
+	left: 0;
+	z-index: 10;
+}
+
+.text-container {
+	width: 100%;
+	align-items: center;
+	left: 0;
+	z-index: 10;
+}
+
+.logo-container {
+	width: 100%;
+	align-items: center;
+	left: 0;
+	z-index: 10;
+}
+
+#name-text {
+	font-family: open_sans, rale, Helvetica;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;	
+}
+#name-description {
+	font-family: rale, Helvetica;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+@media (min-width: 589px) {
+	#name-text {
+		font-size: 55px;
+		letter-spacing: 2px;
+	}
+	#name-description {
+		font-size: 35px;
+	}
+}
+
+.list-inline {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ul.list-social {
+  margin-bottom: 0;
+  align-items: center !important;
+  align-self: center !important;
+}
+ul.list-social li {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+@media (min-width: 589px) {
+	ul.list-social li {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+ul.list-social li a {
+  	display: block;
+  	height: 40px;
+  	width: 40px;
+  	line-height: 40px;
+  	font-size: 20px;
+  	border-radius: 100%;
+  	color: white;
+}
+@media (min-width: 589px) {
+	ul.list-social li a {
+  		height: 70px;
+  		width: 70px;
+  		line-height: 73px;
+  		font-size: 40px;
+	}
+}
+ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+ul.list-social li.social-github a {
+  background-color: #24292E;
+}
+ul.list-social li.social-github a:hover {
+  background-color: black;
+}
+ul.list-social li.social-email a {
+  background-color: #E34C41;
+}
+ul.list-social li.social-email a:hover {
+  background-color: #d73925;
+}
+ul.list-social li.social-blog a {
+  background-color: #FF6600;
+}
+ul.list-social li.social-blog a:hover {
+  background-color: #F04C19;
+}
+ul.list-social li.social-linkedin a {
+  background-color: #0075B3;
+}
+ul.list-social li.social-linkedin a:hover {
+  background-color: #1B6298;
+}
+.fa-facebook {
+	margin-top: -30px;
+}
+.fa-github {
+	margin-top: -5px;
+}
+.fa-envelope {
+	margin-top: -20px;
+}
+.fa-linkedin {
+	margin-top: -5px;
+}
